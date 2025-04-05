@@ -6,7 +6,7 @@ import shap
 import matplotlib.pyplot as plt
 
 # 加载保存的随机森林模型
-model = joblib.load('RF.pkl')
+model = joblib.load('rf.pkl')
 
 # 特征范围定义（根据提供的特征范围和数据类型）
 feature_ranges = {
