@@ -10,17 +10,17 @@ model = joblib.load('rf.pkl')
 
 # 特征范围定义（根据提供的特征范围和数据类型）
 feature_ranges = {
-    "Age": {"type": "numerical", "min": 0, "max": 100, "default": 76},
-    "BMI": {"type": "numerical", "min": 10.00, "max": 50.00, "default": 19.34},
-    "Waist": {"type": "numerical", "min": 50.00, "max": 140.00, "default": 80.00},
-    "SBP": {"type": "numerical", "min": 50, "max": 220, "default": 175},
-    "DBP": {"type": "numerical", "min": 40, "max": 180, "default": 95},
-    "Triglyceride": {"type": "numerical", "min": 50.00, "max": 300.00, "default": 110.00},
-    "RC": {"type": "numerical", "min": 0.00, "max": 5.00, "default": 0.55},
-    "Platelet": {"type": "numerical", "min": 0, "max": 1000, "default": 281},
-    "CRP": {"type": "numerical", "min": 0.00, "max": 100.00, "default": 0.89},
-    "eGFR": {"type": "numerical", "min": 0.00, "max": 120.00, "default": 87.52},
-    "Hand_grip_strength ": {"type": "numerical", "min": 0.00, "max": 100.00, "default": 32.00},
+    "Age": {"type": "numerical", "min": 0, "max": 100, "default": 62},
+    "BMI": {"type": "numerical", "min": 10.00, "max": 50.00, "default": 23.24},
+    "Waist": {"type": "numerical", "min": 50.00, "max": 140.00, "default": 92.30},
+    "SBP": {"type": "numerical", "min": 50, "max": 220, "default": 147},
+    "DBP": {"type": "numerical", "min": 40, "max": 180, "default": 90},
+    "Triglyceride": {"type": "numerical", "min": 50.00, "max": 300.00, "default": 80.00},
+    "RC": {"type": "numerical", "min": 0.00, "max": 5.00, "default": 0.25},
+    "Platelet": {"type": "numerical", "min": 0, "max": 1000, "default": 140},
+    "CRP": {"type": "numerical", "min": 0.00, "max": 100.00, "default": 0.45},
+    "eGFR": {"type": "numerical", "min": 0.00, "max": 120.00, "default": 104.00},
+    "Hand_grip_strength ": {"type": "numerical", "min": 0.00, "max": 100.00, "default": 22.00},
 }
 
 # Streamlit 界面
